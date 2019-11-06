@@ -95,16 +95,46 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+ Author's custom styles
    ========================================================================== */
+body{
+  background: #D0D7D8;
 
-/* ==========================================================================
+}
+
+h1{font-family: 'Raleway', sans-serif;
+font-size:20px;
+color: white;
+
+
+}
+
+img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.masonry-column {
+  padding: 0 1px;
+}
+
+.masonry-grid > div .thumbnail {
+  margin: 5px 1px;
+}
+
+
+/* =========
+=================================================================
    Helper classes
    ========================================================================== */
 
 /*
  * Hide visually and from screen readers
  */
+ #header {
+  background-color: #0355BF;  
+
+ }
 
 .hidden {
   display: none !important;
